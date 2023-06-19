@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>page title</title>
+		<link rel="stylesheet" href="">
+		<style>
+			table, th, td {
+				border: 1px solid black;
+			}
+		</style>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+</style>
+	</head>
+	<body>
+		<h1>Bangladesh</h1>
+		<h2>Bangladesh</h2>
+		<h3>bangladesh</h3>
+		<h4>bangladesh</h4>
+		<h5>Bangladesh</h5>
+		<h6>Bangladesh</h6>
+
+
+<p>Lorem Ipsum is simply dummy text of the <mark>printing and typesetting</mark> industry. Lorem <sum>Ipsum has</sum> been the industry's <sup>standard dummy</sup> text ever since the <del>1500s,</del> when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has</p>
+
+<img src="img_girl.jpg" alt="img girl " width="500" height="600">
+ the my bangladesh........
+
+<h1>Hello Bangladesh</h1>
+ <p><a href="https://www.w3schools.com">Visit W3Schools.com!</a></p>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+<a href="mailto:someone@example.com">Send email</a>
+
+
+<h2>An abbreviation is marked up as follows</h2>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<p>Lorem Ipsum is simply <br>dummy text of the <a href="mailto:webmaster@example.com">printing</a><br> and typesetting</p>
+
+
+<h1>The map and area elements</h1>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic</p>
+<img src="workplace.jpg" alt="workplace.jpg" usemap="#workplace" width="400" height="379">
+
+<map name="workmap">
+	<area shape="rect" coords="34,44,270,350" alt="Computer" href="mac.jpg">
+	<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+	<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<aside>
+	<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+
+<h1>The audio element</h1>
+<p>Click on the play button to play a sound</p>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>This is normal text - <b>and this is bold text</b></p>
+
+<p>This is normal text - <span style="font-weight:bold;">and this is bold text</span></p>
+
+
+
+<h1>The bdi element</h1>
+<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+<ul>
+	<li>User <bdi>hrefs:</bdi> 60 points</li>
+	<li>User <bdi>hrefs:</bdi> 80 points</li>
+	<li>User <bdi>hrefs:</bdi> 90 points</li>
+</ul>
+
+<h1>The blockquote element</h1>
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="https://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally</blockquote>
+
+<h1>The button Element</h1>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<h1>HTML5 Canvas</h1>
+<canvas id="mycanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+
+<h1>The canvas element</h1>
+<canvas id="myCanvas">
+Your browser does not support the canvas tag.
+</canvas><canvas id="myCanvas">
+Your browser does not support the canvas tag.
+</canvas>
+
+
+<script>
+	let c = document.getElementById("mycanvas");
+	let ctx = c.getContext("2d");
+	ctx.fillStyle = "red";
+	ctx.fillRect(20,20,75,50);
+	//Turn transparency on
+	ctx.globalAlpha = 0.2;
+	ctx.fillStyle = "blue";
+	ctx.fillRect(50,50,75,50);
+	ctx.fillStyle ="green";
+	ctx.fillRect(80,80,75,50);
+</script>
+
+
+<h1>The caption element</h1>
+<table>
+	<caption>Monthly savings</caption>
+	<tr>
+		<th>Month</th>
+		<th>Savings</th>
+	</tr>
+	<tr>
+		<td>January</td>
+		<td>$100</td>
+	</tr>
+	<tr>
+		<td>February</td>
+		<td>$50</td>
+	</tr>
+</table>
+
+
+<table>
+	<colgroup>
+		<col span="2" style="background-color:red">
+		<col style="background-color:yellow">
+	</colgroup>
+</table>
+
+<h1>The Colgroup element</h1>
+<table>
+      <tr>
+	     <th>ISBN</th>
+	     <th>Title</th>
+	     <th>Price</th>
+      </tr>
+      <tr>
+	      <td>3455777</td>
+	      <td>My frist HTML</td>
+	      <td>$53</td>
+      </tr>
+      <tr>
+	     <td>8889965</td>
+	     <td>My frist CSS</td>
+	     <td>$99</td>
+      </tr>
+</table>
+
+<h1>The dadalist element</h1>
+<form action="action_page.php" method="get">
+	<label for="browser">Choose your browser from the list:</label>
+	<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+	<input type="Submit">
+</form>
+<p><strong>Note:</strong>The datalist tag is not supported in safari 12.0(or earlier).</p>
+
+
+<h1>The dfn element</h1>
+<p><dfn>HTML</dfn> is the stander markup language for creating web pages</p>
+
+
+<h1>The div element</h1>
+<div class="myDiv">
+	<h1>This is a heading in a div element</h1>
+	<p>This ia some text in a div element</p>
+</div>
+
+<p>This is some text outside the div element</p>
+
+
+<h1>The video element</h1>
+<embed type="video/webm" src="movie.mp4" width="400" height="300">
+
+<h1>The dd, dl,and dt elements</h1>
+<p>These three elements are used to create a deseription list:</p>
+<dl>
+	<dt>Coffee</dt>
+	<dd>Black hot drink</dd>
+	<dt>Mlik</dt>
+	<dd>White cold drink</dd>
+</dl>
+
+<h1>The elements</h1>
+<p>You <em>have</em> to hurry up</p>
+
+<h1>The fieldset element</h1>
+<form action="action_page.php">
+	<fieldset>
+		<legend>Personalia:</legend>
+		<label for="fname">Frist Name:</label>
+		<input type="text" id="fname" name="fname"><br><br>
+		<label for="lname">Last Name:</label>
+		<input type="text" id="lname" name="lname"><br><br>
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email"><br><br>
+		<label for="birthday">Birthday:</label>
+		<input type="date" id="birthday" name="birthday"><br><br>
+		<input type="submit" value="Submit">
+	</fieldset>
+</form>
+
+<svg height="130" width="500">
+<defs>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+  <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+</linearGradient>
+</defs>
+
+<ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+
+<text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+</svg>
+
+
+
+
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+
+<h1>The output element</h1>
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+
+<p>Note: The output element is not supported in Edge 12 (or earlier)</p>
+
+<h1>The param element</h1>
+
+<object data="horse.wav">
+  <param name="autoplay" value="true">
+</object>
+
+
+	</body>
+</html>
